@@ -16,7 +16,10 @@ public class GitDemo03 {
      */
     public static void main(String[] args) {
         System.out.println("first hello...");
-        System.out.println("second hello...");
+        NewClass01 m01 = new NewClass01();
+        m01.setMessage("message from NewClass01....");
+        System.out.println("second hello from :" + m01.getMessage());
+        
         // TODO code application logic here
     }
     
